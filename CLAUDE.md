@@ -34,3 +34,7 @@ Legion::Extensions::MicrosoftTeams
 - **Observer disabled by default**: Compliance gate (`settings[:bot][:observe][:enabled] = false`).
 - **Session persistence**: Multi-turn sessions flush to lex-memory on threshold/idle/shutdown.
 - **Token lifecycle**: AuthValidator on boot + TokenRefresher every 15min. `authenticated?` vs `previously_authenticated?` controls auto re-auth behavior.
+
+## Development workflow
+
+Read [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for validation boundaries, the offline helper and CI recommendations.

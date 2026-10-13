@@ -218,3 +218,7 @@ client.extract_local_messages(since: Time.now - 86_400)
 ## License
 
 MIT
+
+## Developing this fork
+
+See [the fork development guide](docs/DEVELOPMENT.md) for the source/spec map, an offline RSpec planning helper, safe validation boundaries and proposed self-hosted CI improvements. Agent entry points are [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md). Helpers do not start Legion or access live services.
